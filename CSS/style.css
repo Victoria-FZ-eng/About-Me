@@ -1,0 +1,22 @@
+body { background-color: rgb(255, 205, 220);
+color:rgb(92, 1, 44);
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin:40px;}
+body header h1 {
+   
+    font-size: xx-large;
+    text-align: center;
+}
+body main h2{
+    font-size: large;
+    text-align: center;
+}
+body main p{
+    text-align: center;
+    font-size:medium ;
+
+}
+body footer{
+    padding-top: 300px;
+    float: right;
+}
