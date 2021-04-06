@@ -52,14 +52,18 @@ else if(food === "no"){
     console.log("No one doesn't!!");
 
 }
-let enjoy = prompt("Are you enjoying your time?","Yes,No");
+let enjoy = prompt("Are you enjoying your time?");
 enjoy = enjoy.toLowerCase();
 switch(enjoy){
-    case "yes": alert("I like your website");
-    console.log("I like your website");
+    case "yes":
+    case "y" :
+         alert("I like your website");
+         console.log("I like your website");
     break;
-    case "no" : alert("I am bored");
-    console.log("I am bored");
+    case "no" :
+    case "n" :    
+         alert("I am bored");
+         console.log("I am bored");
     break;
     default: ("I hope you like my website!");
 }
