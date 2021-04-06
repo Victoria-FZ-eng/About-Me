@@ -2,27 +2,29 @@
 let userName = prompt ("Hi, What's your name?");
 alert(userName + " ,Welcome to my website!");
 console.log(userName + " ,Welcome to my website!");
-let age = prompt ("Am I +18 years old ?","Yes, No");
+let age = prompt ("Am I +18 years old ?");
 age = age.toLowerCase();
-if(age === "yes"){
+if(age === "yes" || age === "y"){
     alert("Of coarse I am +18 .");
     console.log("Of coarse I am +18 .");
 
 }
-else if(age === "no") {
+else if(age === "no" || age === "n") {
     alert("no,I'm 18 years old." );
     console.log("no,I'm 18 years old.");
 }
 else { 
-     alert("It doesn/'t really matter xP!");
-     console.log("My age doesn't really matter xP!");
+     alert("It doesn't really matter xP! but i am +18");
+     console.log("My age doesn't really matter xP! but i am +18");
 };
-let music = prompt("Do I like music?","Y, N");
+let music = prompt("Do I like music?");
 music = music.toLowerCase();
 switch(music){
+    case "yes":
     case "y": alert("Yes,I like music");
     console.log("Yes,I like music");
     break;
+    case "no":
     case "n" : alert("Not really, I like music");
     console.log("Not really, I like music");
     break;
@@ -30,27 +32,36 @@ switch(music){
     console.log("I like music");
 
 }
-let pet = prompt("Do I like Pets?","Yes,No");
+let pet = prompt("Do I have any Pets?");
 pet = pet.toLowerCase();
-if(pet === "yes"){
-    alert("I like pets");
-    console.log("I like pets");
+if(pet === "yes" || pet ==="y"){
+    alert("No , I don't");
+    console.log("No , I don't");
 
 }
-else if(pet === "no") {
-    alert("actually i do like pets");
-    console.log("actually i do like pets");
+else if(pet === "no" || pet === "n") {
+    alert("true,but i do like to have one");
+    console.log("true,but i do like to have one");
 }
-let food = prompt("Do I like shawerma?","Yes,No");
+else { 
+    alert("I don't have any pet , but I would like to have one");
+    console.log("I don't have any pet , but I would like to have one");
+}
+
+let food = prompt("Do I like shawerma?");
 food = food.toLowerCase();
-if(food === "yes"){
+if(food === "yes" || food === "y"){
     alert("I love shawerma!");
     console.log("I love shawerma!");
 }
-else if(food === "no"){
+else if(food === "no" || food ==="n"){
     alert("No one doesn't!!");
     console.log("No one doesn't!!");
 
+}
+else {
+    alert("I would like to mention that I do");
+    console.log("I would like to mention that I do");
 }
 let enjoy = prompt("Are you enjoying your time?");
 enjoy = enjoy.toLowerCase();
