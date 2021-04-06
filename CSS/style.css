@@ -1,21 +1,45 @@
-body { background-color: rgb(255, 205, 220);
-color:rgb(92, 1, 44);
+body { background-color: rgb(255, 231, 238);
+color:rgb(117, 21, 64);
 font-family:Georgia, 'Times New Roman', Times, serif;
-margin:40px;}
+margin:20px;
+padding:20px;}
 body header h1 {
    
     font-size: xx-large;
     text-align: center;
+    margin:20px;
+    padding:20px;
+    background-color: rgb(174, 176, 179);
 }
 body main h2{
-    font-size: large;
+    color: lemonchiffon;
+    background-color: rgb(126, 102, 111);
+    margin:20px;
+    padding:20px;
+    font-size: x-large;
     text-align: center;
 }
-body main p{
+body main ul{
+    margin:20px;
+    padding:20px;
     text-align: center;
-    font-size:medium ;
+    font-size:large ;
 
 }
+body main ol{
+    margin-left:15%;
+    padding:20px;
+    text-align: left;
+    font-size:large ;
+
+}
+li{
+    margin:10px;
+    padding:5px;
+}
+ol{
+    list-style: lower-roman;
+ }  
 body footer{
     padding-top: 300px;
     float: right;
