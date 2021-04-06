@@ -68,15 +68,15 @@ enjoy = enjoy.toLowerCase();
 switch(enjoy){
     case "yes":
     case "y" :
-         alert("I like your website");
-         console.log("I like your website");
+         alert("Thank you <3");
+         console.log("Thank you <3");
     break;
     case "no" :
     case "n" :    
-         alert("I am bored");
-         console.log("I am bored");
+         alert("I'm so sorry!");
+         console.log("I'm so sorry!");
     break;
     default: ("I hope you like my website!");
 }
-alert("Thank you for your time <3 !");
+alert(userName + "Thank you for your time <3 !");
 
