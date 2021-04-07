@@ -26,7 +26,7 @@ else {
 }
 question1();
 
-
+function question2(){
 let music = prompt('Do I like music?');
 music = music.toLowerCase();
 switch(music){
@@ -43,7 +43,8 @@ default : alert('I like music');
     //console.log("I like music");
 
 }
-
+}
+question2();
 
 let pet = prompt('Do I have any Pets?');
 pet = pet.toLowerCase();
