@@ -46,6 +46,7 @@ default : alert('I like music');
 }
 question2();
 
+function question3(){
 let pet = prompt('Do I have any Pets?');
 pet = pet.toLowerCase();
 if(pet === 'yes' || pet ==='y'){
@@ -62,7 +63,8 @@ else {
   alert('I don\'t have any pet , but I would like to have one');
   //console.log("I don't have any pet , but I would like to have one");
 }
-
+}
+question3();
 
 
 let food = prompt('Do I like shawerma?');
