@@ -6,6 +6,7 @@ alert(userName + ' ,Welcome to my website!');
 
 let score = 0;
 
+function question1(){
 let age = prompt ('Am I +18 years old ?');
 age = age.toLowerCase();
 if(age === 'yes' || age === 'y'){
@@ -22,6 +23,8 @@ else {
   alert('It doesn\'t really matter xP! but i am +18');
   //console.log("My age doesn't really matter xP! but i am +18");
 }
+}
+question1();
 
 
 let music = prompt('Do I like music?');
