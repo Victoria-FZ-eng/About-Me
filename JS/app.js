@@ -6,6 +6,7 @@ alert(userName + ' ,Welcome to my website!');
 
 let score = 0;
 
+function question1(){
 let age = prompt ('Am I +18 years old ?');
 age = age.toLowerCase();
 if(age === 'yes' || age === 'y'){
@@ -22,8 +23,10 @@ else {
   alert('It doesn\'t really matter xP! but i am +18');
   //console.log("My age doesn't really matter xP! but i am +18");
 }
+}
+question1();
 
-
+function question2(){
 let music = prompt('Do I like music?');
 music = music.toLowerCase();
 switch(music){
@@ -40,8 +43,10 @@ default : alert('I like music');
     //console.log("I like music");
 
 }
+}
+question2();
 
-
+function question3(){
 let pet = prompt('Do I have any Pets?');
 pet = pet.toLowerCase();
 if(pet === 'yes' || pet ==='y'){
@@ -58,9 +63,10 @@ else {
   alert('I don\'t have any pet , but I would like to have one');
   //console.log("I don't have any pet , but I would like to have one");
 }
+}
+question3();
 
-
-
+function question4(){
 let food = prompt('Do I like shawerma?');
 food = food.toLowerCase();
 if(food === 'yes' || food === 'y'){
@@ -77,8 +83,10 @@ else {
   alert('I would like to mention that I do');
   //console.log("I would like to mention that I do");
 }
+}
+question4();
 
-
+function question5(){
 let glasses = prompt('Do you think I wear glasses?');
 glasses = glasses.toLowerCase();
 switch(glasses){
@@ -95,11 +103,12 @@ case 'n' :
   break;
 default: ('I do wear glasses');
 }
+}
+
+question5();
 
 
-
-
-
+function question6(){
 
 
 let year = prompt('In what year do you think i was born? , Hint: within 90\'s , you only have 4 attempts');
@@ -124,11 +133,12 @@ for (let i = 1 ; i <= 4 ; i++){
     score++;
     break;
   }
-
 }
+return year; 
+}
+question6();
 
-
-
+function question7(){
 let favDrink = ['green tea','coffee','coktails','avocado','grapefruit','lemon and mint','juices','water'];
 let guess = prompt('What is my favorite drink?, Hint: its healthy, You only have 6 attempts');
 let y = 0;
@@ -156,7 +166,15 @@ for ( let i = 0 ; i<= 5 ; i++){
     guess = prompt ('Try again..');
   }
 }
-
+return guess;
+}
+question7();
 alert(userName + 'Thank you for your time <3 ! , your score is ' + score + 'out of 7');
 
 //console.log(userName + "Thank you for your time <3 !");
+
+
+
+
+
+
